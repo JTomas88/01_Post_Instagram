@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.bodyPagina {
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+
+
+.bodyInstagram {
+    width: 600px;
+    height: auto;
+    background-color: white;
+}
+
+.cabecera {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.izquierda {
+    justify-content: start;
+    display: flex;
+    float: left;
+}
+
+#iconoHTML {
+    width: 50px;
+    height: 100%;
+    position: relative;
+}
+
+.imagen{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#textoCabecera {
+    width: 100px;
+    height: 100%;
+    text-align: left;
+}
+
+#titulo{
+    margin-top: 6px;
+    font-weight: bolder;
+
+}
+
+.derecha {
+    display: flex;
+    justify-content: end;
+}
+
+#tresPuntos {
+    width: 40px;
+    height: 100%;
+    position: relative;
+}
+
+.share{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentFoto{
+    height: 430px;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.contentFoto img{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.iconos{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    font-style: italic;
+}
+
+.icono{
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.icono-derecha{
+    margin-left: auto;
+}
+
+.texto{
+    margin: 20px 10px 20px 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
